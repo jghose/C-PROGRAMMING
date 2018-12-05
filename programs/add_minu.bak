@@ -1,0 +1,19 @@
+				#include<stdio.h>
+				int main()
+				{
+				int a,b,m,c;
+				printf("enter the vlue of m=1 to add and 2 to minus :  ");
+				scanf("%d %d",&a,&b);
+				if (m==1)
+				{
+				c=a+b;
+
+				printf("the value of c is: %d equals %d+%d",c,a,b);
+				}
+				else if(m==2)
+				{
+				 c=a-b;
+				  printf("the value of c is: %d equals %d-%d",c,a,b);
+				 }
+				 return 0;
+				}
